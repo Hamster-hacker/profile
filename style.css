@@ -1,0 +1,177 @@
+body {
+  font-family: "Albert Sans", sans-serif;
+  line-height: normal;
+  font-size: 16px;
+  background-color: #afdba9;
+  color: #058E3F;
+  text-align: center;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+#profile-pic {
+  width: 20vw;
+  height: 20vw;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.container {
+  width: 85%;
+  max-width: 700px;
+  border: 3px solid green;
+  padding: 10px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.white-card {
+  background-color: #F7F2ED;
+  padding: 2em;
+  width: 90%;
+  max-width: 600px;
+  margin: 25px auto;
+  border-radius: 15px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Text Styles */
+h1 {
+  font-family: "Antic Didone", serif;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #48392A;
+}
+
+h2 {
+  font-family: "Alegreya", system-ui;
+  font-size: 1.75em;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: "Rubik Bubbles", system-ui;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Button Styling */
+.button {
+  background-color: #07a879;
+  border-radius: 15px;
+  color: white;
+  padding: 0.8em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background-color: white;
+  color: #20de07;
+  font-weight: bold;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 5px;
+  margin: 6px;
+}
+
+li a {
+  color: #07a879;
+  transition: 0.3s ease;
+}
+
+#list > li > a > i {
+  font-size: 1.875em;
+}
+
+#list > li > a > i:hover {
+  color: #20de07;
+}
+
+/* Tablet Responsive */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+    padding: 20px;
+  }
+  .container {
+    width: 90%;
+  }
+  .white-card {
+    padding: 1.5em;
+    width: 95%;
+  }
+  h1 {
+    font-size: 1.75em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.25em;
+  }
+  .button {
+    padding: 0.6em 1.5em;
+  }
+  #profile-pic {
+    width: 25vw;
+    height: 25vw;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 15px;
+  }
+  .container {
+    width: 95%;
+  }
+  .white-card {
+    padding: 1em;
+    width: 98%;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.25em;
+  }
+  h3 {
+    font-size: 1.125em;
+  }
+  .button {
+    padding: 0.5em 1.2em;
+    font-size: 0.9em;
+  }
+  #profile-pic {
+    width: 30vw;
+    height: 30vw;
+  }
+  #list > li > a > i {
+    font-size: 1.5em;
+  }
+}
