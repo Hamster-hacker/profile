@@ -1,4 +1,4 @@
-/* body {
+body {
   font-family: "Albert Sans", sans-serif;
   line-height: normal;
   font-size: 16px;
@@ -41,7 +41,7 @@
 }
 
 /* Text Styles */
-/* h1 {
+h1 {
   font-family: "Antic Didone", serif;
   font-weight: bold;
   font-size: 2em;
@@ -63,7 +63,7 @@ h3 {
 }
 
 /* Button Styling */
-/* .button {
+.button {
   background-color: #07a879;
   border-radius: 15px;
   color: white;
@@ -82,10 +82,10 @@ h3 {
   font-weight: bold;
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-} */
+}
 
 /* List Styling */
-/* ul {
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -108,196 +108,6 @@ li a {
 
 #list > li > a > i:hover {
   color: #20de07;
-} */
-
-/* Tablet Responsive */
-/* @media (max-width: 768px) {
-  body {
-    font-size: 15px;
-    padding: 20px;
-  }
-  .container {
-    width: 90%;
-  }
-  .white-card {
-    padding: 1.5em;
-    width: 95%;
-  }
-  h1 {
-    font-size: 1.75em;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-  h3 {
-    font-size: 1.25em;
-  }
-  .button {
-    padding: 0.6em 1.5em;
-  }
-  #profile-pic {
-    width: 25vw;
-    height: 25vw;
-  }
-}
-
-/* Mobile Responsive */
-/* @media (max-width: 480px) {
-  body {
-    font-size: 14px;
-    padding: 15px;
-  }
-  .container {
-    width: 95%;
-  }
-  .white-card {
-    padding: 1em;
-    width: 98%;
-  }
-  h1 {
-    font-size: 1.5em;
-  }
-  h2 {
-    font-size: 1.25em;
-  }
-  h3 {
-    font-size: 1.125em;
-  }
-  .button {
-    padding: 0.5em 1.2em;
-    font-size: 0.9em;
-  }
-  #profile-pic {
-    width: 30vw;
-    height: 30vw;
-  }
-  #list > li > a > i {
-    font-size: 1.5em;
-  }
-}   */
-
-
-body {
-  font-family: "Comic Sans MS", cursive, sans-serif; /* Fun font choice */
-  line-height: normal;
-  font-size: 16px;
-  background-color: #ffccf3; /* Bright background color */
-  color: #3d1b68; /* Darker color for text contrast */
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-#profile-pic {
-  width: 20vw;
-  height: 20vw;
-  max-width: 200px;
-  max-height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px solid #ff69b4; /* Bright border */
-  box-shadow: 0 0 20px rgba(255, 105, 180, 0.7); /* Neon shadow effect */
-  transition: transform 0.3s ease;
-}
-
-#profile-pic:hover {
-  transform: scale(1.1); /* Scale effect on hover */
-}
-
-.container {
-  width: 85%;
-  max-width: 700px;
-  margin: auto;
-  padding: 10px;
-  box-sizing: border-box;
-  background: linear-gradient(135deg, #ffccf3, #d4c2e8); /* Funky gradient */
-  border-radius: 20px; /* Rounded corners */
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
-}
-
-.white-card {
-  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
-  padding: 2em;
-  width: 90%;
-  max-width: 600px;
-  margin: 25px auto;
-  border-radius: 20px;
-  border: 3px dashed #ff69b4; /* Dashed border for funkiness */
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-  position: relative;
-}
-
-/* Fun text styles */
-h1 {
-  font-family: "Press Start 2P", cursive; /* Retro arcade style */
-  font-size: 3em; /* Bigger size for impact */
-  margin-bottom: 10px;
-  color: #ff69b4; /* Bright pink color */
-  text-shadow: 2px 2px #000; /* Black shadow for contrast */
-}
-
-h2 {
-  font-family: "Impact", sans-serif; /* Bold style */
-  font-size: 2.5em; /* Large size */
-  margin-bottom: 10px;
-  color: #3d1b68; /* Darker color for contrast */
-}
-
-h3 {
-  font-family: "Bangers", cursive; /* Fun comic style */
-  font-size: 2em; /* Larger size for impact */
-  margin-bottom: 10px;
-  font-weight: 600;
-  color: #1e90ff; /* Bright blue for contrast */
-}
-
-/* Button Styling */
-.button {
-  background-color: #ff69b4; /* Bright pink */
-  border-radius: 25px;
-  color: white;
-  padding: 1em 2em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.2em;
-  transition: all 0.3s ease;
-  box-shadow: 0 5px 15px rgba(255, 105, 180, 0.5);
-}
-
-.button:hover {
-  background-color: white;
-  color: #ff69b4;
-  font-weight: bold;
-  transform: scale(1.1);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
-}
-
-/* List Styling */
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.list-inline > li {
-  display: inline-block;
-  padding: 0px 5px;
-  margin: 6px;
-}
-
-li a {
-  color: #ff69b4; /* Bright link color */
-  transition: 0.3s ease;
-  font-size: 1.5em; /* Larger size for visibility */
-}
-
-#list > li > a > i {
-  font-size: 2em; /* Increase icon size */
-}
-
-#list > li > a > i:hover {
-  color: #20de07; /* Change color on hover */
 }
 
 /* Tablet Responsive */
@@ -314,13 +124,13 @@ li a {
     width: 95%;
   }
   h1 {
-    font-size: 2.5em;
+    font-size: 1.75em;
   }
   h2 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   h3 {
-    font-size: 1.75em;
+    font-size: 1.25em;
   }
   .button {
     padding: 0.6em 1.5em;
@@ -360,5 +170,8 @@ li a {
   #profile-pic {
     width: 30vw;
     height: 30vw;
+  }
+  #list > li > a > i {
+    font-size: 1.5em;
   }
 }
